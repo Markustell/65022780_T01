@@ -2,7 +2,6 @@ const randNum = Math.floor(Math.random() * 101);
 let guess_count = 1;
 
 function GN() {
-    alert(randNum)
     const Guess_Number = document.getElementById("G_N").value;
    
     if(Guess_Number == randNum) {
